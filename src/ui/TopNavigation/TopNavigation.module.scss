@@ -1,0 +1,85 @@
+.top_navigation {
+  min-width: 100%;
+  height: fit-content;
+  background: #121212;
+  padding: 10px 30px;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .col {
+      display: flex;
+      align-items: center;
+
+      .buttons {
+        display: flex;
+
+        .button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 10px;
+          background: #090909;
+          border-radius: 50%;
+
+          &:last-child {
+            margin-left: 15px;
+          }
+        }
+      }
+
+      .input {
+        display: flex;
+        align-items: center;
+        width: 250px;
+        height: 35px;
+        padding: 0 10px;
+        border-radius: 23px;
+        background: #fff;
+        position: relative;
+        overflow: hidden;
+        margin-left: 50px;
+
+        input {
+          height: 100%;
+          width: 100%;
+          margin-left: 10px;
+          border: 0;
+          border-radius: 23px;
+          background: transparent;
+          color: #000;
+        }
+      }
+
+      .auth {
+        display: flex;
+
+        .auth_button {
+          button {
+            padding: 9px 20px;
+            border-radius: 23px;
+            border: 0;
+          }
+
+          &:first-child {
+            button {
+              background: transparent;
+              color: #A7A7A7;
+              font-weight: 700;
+            }
+          }
+
+          &:last-child {
+            button {
+              background: #fafafa;
+              color: #000;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}

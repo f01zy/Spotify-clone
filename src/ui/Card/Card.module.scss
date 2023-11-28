@@ -1,0 +1,24 @@
+.card {
+  width: 200px;
+  height: 298px;
+  background: #181818;
+  border-radius: 6px;
+  padding: 16px;
+
+  .image {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .text {
+    margin-top: 10px;
+
+    p {
+      color: #7A7A7A;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+}

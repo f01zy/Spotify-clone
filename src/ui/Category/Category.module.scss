@@ -1,0 +1,14 @@
+.category {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 10px 10px;
+  position: relative;
+  margin-bottom: 20px;
+
+  .image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
